@@ -2,7 +2,7 @@
 # HEICtoJPG 
 ___
 HEICtoJPG is Windows app, that allows you to convert images from .HEIC to .JPG format.
-It is built using [fyne](fyne.io/fyne/v2) and [jdeng goheif](github.com/jdeng/goheif)
+It is built using [fyne](https://fyne.io/) and [jdeng goheif](https://github.com/jdeng/goheif)
 libraries. All you need to do is to specify the folder and the app will find every
 image with .HEIC extension and convert them to .JPG. It does not corrupt original files.
 
