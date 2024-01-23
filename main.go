@@ -48,7 +48,7 @@ func main() {
 		startButton *widget.Button
 	)
 	window.SetFixedSize(true)
-	favicon, err := os.ReadFile("./favicon.png")
+	favicon, err := os.ReadFile("./assets/favicon.png")
 	if err != nil {
 		log.Fatal("failed to open icon file")
 	}
