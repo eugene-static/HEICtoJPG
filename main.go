@@ -6,7 +6,6 @@ import (
 	"image/jpeg"
 	"io"
 	"io/fs"
-	"log"
 	"os"
 	"path/filepath"
 	"strings"
@@ -48,11 +47,11 @@ func main() {
 		startButton *widget.Button
 	)
 	window.SetFixedSize(true)
-	favicon, err := os.ReadFile("./assets/favicon.png")
-	if err != nil {
-		log.Fatal("failed to open icon file")
-	}
-	window.SetIcon(fyne.NewStaticResource("favicon", favicon))
+	//favicon, err := os.ReadFile("./assets/Icon.png")
+	//if err != nil {
+	//	log.Println("failed to open icon file")
+	//}
+	//window.SetIcon(fyne.NewStaticResource("favicon", favicon))
 	// Entry
 	pathEntry := widget.NewEntry()
 	pathEntry.PlaceHolder = "Folder path"

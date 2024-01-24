@@ -8,9 +8,10 @@ image with .HEIC extension and convert them to .JPG. It does not corrupt origina
 
 ![Screenshot](assets/SH.png)
 ___
-To build your own version use the following command:
+To build your own version use the following:
 ```
 go build -o HEICtoJPG.exe -ldflags "-H=windowsgui -w -s -extldflags '-static'" main.go
 ```
-make sure that you have enabled C compiler. Read [this](https://docs.fyne.io/started/cross-compiling) for details
+or ``fyne-cross`` command.
+Make sure that you have enabled C compiler. Read [this](https://docs.fyne.io/started/cross-compiling) for details
 
