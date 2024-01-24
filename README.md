@@ -1,4 +1,4 @@
-![HEICtoJPG](assets/favicon x64.png) 
+![HEICtoJPG](assets/favicon.png) 
 # HEICtoJPG 
 ___
 HEICtoJPG is Windows app, that allows you to convert images from .HEIC to .JPG format.
