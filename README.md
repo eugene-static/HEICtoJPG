@@ -1,6 +1,5 @@
 ![HEICtoJPG](assets/favicon.png) 
-# HEICtoJPG 
-___
+# HEICtoJPG
 HEICtoJPG is Windows app, that allows you to convert images from .HEIC to .JPG format.
 It is built using [fyne](https://fyne.io/) and [jdeng goheif](https://github.com/jdeng/goheif)
 libraries. All you need to do is to specify the folder and the app will find every
